@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes - Classroom</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <img src="https://www.gstatic.com/classroom/logo_square_48.svg" alt="Classroom" class="logo">
+    <h1>Classroom</h1>
+  </div>
+  <div class="header-right">
+    <span id="user" class="user-name"></span>
+    <div class="user-avatar">
+      <span class="material-icons">account_circle</span>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="classes-header">
+    <h2>Your classes</h2>
+    <button class="add-class-btn" onclick="showAddClass()">
+      <span class="material-icons">add</span>
+      Create class
+    </button>
+  </div>
+
+  <div id="addClassForm" class="add-class-form" style="display:none;">
+    <input type="text" id="className" placeholder="Class name">
+    <button onclick="addClass()">Create</button>
+    <button onclick="hideAddClass()">Cancel</button>
+  </div>
+
+  <div id="classList" class="class-grid"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
