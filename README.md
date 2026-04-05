@@ -1,24 +1,47 @@
-# Google Classroom Clone
+# 📘 Google Classroom Clone (Frontend Only)
 
-## Domain:
-E-Learning / Online Education
+## 🌐 Domain
+Education Technology (EdTech)
 
-## Overview:
-A cloud-based platform that allows teachers to create and manage classes, distribute assignments, communicate with students, and track submissions efficiently.
+## 📖 Overview
 
-## Features:
+The Google Classroom Clone is a frontend-based web application built using HTML, CSS, and JavaScript. It replicates the basic interface and core functionalities of an online classroom platform, allowing users to experience how digital learning systems work.
 
-- Secure user login and authentication
-- Class creation and management
-- Assignment creation, submission, and tracking
-- Communication via announcements and comments
-- File storage and organization using Google Drive
-- Notifications for deadlines and grades
-- Role-based access control
+This project focuses on user interface design and client-side logic, enabling teachers and students to interact with classes, assignments, and announcements without using a backend server.
 
-## Technology Used:
+## ✨ Features
 
-- HTML5
-- CSS3
-- JavaScript
+👨‍🏫 Teacher Features
+
+- Create new classes (stored in browser using Local Storage)
+- Post assignments and announcements
+- View class details
+
+👩‍🎓 Student Features
+
+- Join classes using class code
+- View assignments and updates
+- Submit assignments (simulated)
+
+🔔 General Features
+
+- Responsive UI design
+- Class dashboard view
+- Stream/announcement section
+- Assignment section with deadlines
+- Data storage using Local Storage
+- Interactive UI using JavaScript
+
+## 🛠️ Technologies Used
+
+💻 Frontend
+
+- HTML5 – Structure of the web pages
+- CSS3 – Styling and layout (Flexbox/Grid)
+- JavaScript – Functionality and interactivity
+
+
+🗄️ Storage
+
+- Browser Local Storage (to store class and assignment data)
   
