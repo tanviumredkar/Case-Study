@@ -18,7 +18,7 @@ A cloud-based platform that allows teachers to create and manage classes, distri
 
 ## Technology Used:
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
   
